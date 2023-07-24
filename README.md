@@ -156,13 +156,26 @@ npm i react react-dom
 #npm i storybook-dark-mode
 ```
 
-Atualmente este addon não seria necessário, mas está com bug ao aplicar o tema escuro nos docs (mdx).
+~~Atualmente este addon não seria necessário, mas está com bug ao aplicar o tema escuro nos docs (mdx).~~
 
 !!! Bug !!!
 O tema escuro
 
-- [eslint-plugin-storybook]
+```bash
+#npx sb@latest upgrade
+```
+
+~~- [eslint-plugin-storybook]~~
 
 ```bash
-npm i -D eslint-plugin-storybook
+#npm i -D eslint-plugin-storybook
+```
+
+Foi indicado no stackoverflow o upgrade do sb. Não resolveu e um pequeno ajuste no arquivo `preview.js`
+Eu havia posto o parametros `docs` fora dos `parameters`. Ajustei e funcionou.
+
+- [polished](https://www.npmjs.com/package/polished)
+
+```bash
+npm i polished
 ```

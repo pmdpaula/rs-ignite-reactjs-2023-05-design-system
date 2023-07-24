@@ -10,10 +10,10 @@ const preview = {
         date: /Date$/,
       },
     },
+    docs: {
+      theme: themes.dark,
+    }
   },
-  docs: {
-    theme: themes.dark,
-  }
 };
 
 export default preview;
