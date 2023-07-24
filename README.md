@@ -90,8 +90,18 @@ npm init
 npm i -D eslint
 npx eslint --init
 ```
-
 Outros pacotes serão instalados de acordo com a resposta dada no questionário de inicialização do eslint.
+
+
+
+- [Turbo](https://turbo.build/repo/docs/installing)
+Pacote para executar e administrar todos os pacotes pela raiz
+
+
+```bash
+npm i -D turbo@latest
+```
+
 
 ### react
 
