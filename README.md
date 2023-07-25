@@ -113,6 +113,8 @@ Criando o pacote
 npm init
 ```
 
+
+
 #### Instalações
 
 - [Typescript]
@@ -139,6 +141,15 @@ npm i -D react @types/react @types/react-dom
 ```bash
 npm i @stitches/react
 ```
+
+
+-[Avatar do Radix](https://www.radix-ui.com/docs/primitives/components/avatar#installation)
+
+```bash
+npm install @radix-ui/react-avatar
+```
+
+
 
 ### docs
 
