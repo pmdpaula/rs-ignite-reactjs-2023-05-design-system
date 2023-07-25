@@ -90,18 +90,15 @@ npm init
 npm i -D eslint
 npx eslint --init
 ```
+
 Outros pacotes serão instalados de acordo com a resposta dada no questionário de inicialização do eslint.
 
-
-
 - [Turbo](https://turbo.build/repo/docs/installing)
-Pacote para executar e administrar todos os pacotes pela raiz
-
+  Pacote para executar e administrar todos os pacotes pela raiz
 
 ```bash
 npm i -D turbo@latest
 ```
-
 
 ### react
 
@@ -112,8 +109,6 @@ Criando o pacote
 ```bash
 npm init
 ```
-
-
 
 #### Instalações
 
@@ -142,14 +137,17 @@ npm i -D react @types/react @types/react-dom
 npm i @stitches/react
 ```
 
-
 -[Avatar do Radix](https://www.radix-ui.com/docs/primitives/components/avatar#installation)
 
 ```bash
 npm install @radix-ui/react-avatar
 ```
 
+[Ícones - phosphor](https://github.com/phosphor-icons/react)
 
+```bash
+npm i phosphor-react
+```
 
 ### docs
 
