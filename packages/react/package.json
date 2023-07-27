@@ -17,14 +17,14 @@
     "@ignite-ui/ts-config": "*",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
-    "react": "^18.2.0",
-    "tsup": "^7.1.0",
-    "typescript": "^5.1.6"
+    "react": "18.2.0",
+    "tsup": "7.1.0",
+    "typescript": "5.1.6"
   },
   "license": "MIT",
   "dependencies": {
-    "@radix-ui/react-avatar": "^1.0.3",
-    "@stitches/react": "^1.2.8",
-    "phosphor-react": "^1.4.1"
+    "@radix-ui/react-avatar": "1.0.3",
+    "@stitches/react": "1.2.8",
+    "phosphor-react": "1.4.1"
   }
 }
