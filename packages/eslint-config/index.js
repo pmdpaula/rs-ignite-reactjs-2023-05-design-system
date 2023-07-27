@@ -40,6 +40,7 @@ module.exports = {
         "varsIgnorePattern": "^_",
         "argsIgnorePattern": "^_"
       }
-    ]
+    ],
+    "object-curly-spacing": ["warn", "always"],
   },
 };
