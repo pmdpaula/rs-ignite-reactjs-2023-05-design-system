@@ -1,5 +1,6 @@
 import { StoryObj, Meta } from '@storybook/react';
 import { Button, ButtonProps } from '@ignite-ui/react';
+import { ArrowRight } from 'phosphor-react';
 
 export default {
   title: 'Form/Button',
@@ -35,6 +36,17 @@ export const Small: Story = {
   }
 };
 
+
+export const WithIcon: Story = {
+  args: {
+    children: (
+      <>
+        Príxomo Passo
+        <ArrowRight weight='bold' />
+      </>
+    )
+  }
+};
 
 export const Disabled: Story = {
   args: {

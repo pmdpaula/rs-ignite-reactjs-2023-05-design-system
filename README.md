@@ -137,13 +137,13 @@ npm i -D react @types/react @types/react-dom
 npm i @stitches/react
 ```
 
--[Avatar do Radix](https://www.radix-ui.com/docs/primitives/components/avatar#installation)
+- [Avatar do Radix](https://www.radix-ui.com/docs/primitives/components/avatar#installation)
 
 ```bash
 npm install @radix-ui/react-avatar
 ```
 
-[Ícones - phosphor](https://github.com/phosphor-icons/react)
+- [Ícones - phosphor](https://github.com/phosphor-icons/react)
 
 ```bash
 npm i phosphor-react
@@ -198,3 +198,13 @@ Eu havia posto o parametros `docs` fora dos `parameters`. Ajustei e funcionou.
 ```bash
 npm i polished
 ```
+
+
+
+- [Ícones - phosphor](https://github.com/phosphor-icons/react)
+
+```bash
+npm i phosphor-react
+```
+
+
