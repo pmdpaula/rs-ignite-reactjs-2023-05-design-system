@@ -137,11 +137,22 @@ npm i -D react @types/react @types/react-dom
 npm i @stitches/react
 ```
 
-- [Avatar do Radix](https://www.radix-ui.com/docs/primitives/components/avatar#installation)
+
+- [Avatar do Radix](https://www.radix-ui.com/docs/primitives/components/avatar)
 
 ```bash
 npm install @radix-ui/react-avatar
 ```
+
+
+
+- [Checkbox do Radix](https://www.radix-ui.com/docs/primitives/components/checkbox)
+
+```bash
+npm install @radix-ui/react-checkbox
+```
+
+
 
 - [Ícones - phosphor](https://github.com/phosphor-icons/react)
 
