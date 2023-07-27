@@ -3,17 +3,20 @@ import { Avatar, AvatarProps } from '@ignite-ui/react';
 
 
 export default {
-  title: 'Typography/Avatar',
+  title: 'Data Display/Avatar',
   component: Avatar,
+  tags: ['autodocs'],
   args: {
     src: 'https://github.com/pmdpaula.png',
     alt: 'Paulo de Paula',
   }
 } as Meta<AvatarProps>;
 
-export const Primary: StoryObj<AvatarProps> = {};
+type Story = StoryObj<AvatarProps>;
 
-export const WithFallback: StoryObj<AvatarProps> = {
+export const Primary: Story = {};
+
+export const WithFallback: Story = {
   args: {
     src: undefined,
   }
