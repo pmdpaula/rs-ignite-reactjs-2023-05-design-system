@@ -22,6 +22,23 @@ Ignite 2023 - ReactJS - Projeto 05
 
 ## Pacotes
 
+- [Turbo](https://turbo.build/repo/docs/installing)
+  Pacote para executar e administrar todos os pacotes pela raiz
+
+```bash
+npm i -D turbo@latest
+```
+
+
+
+
+- [Versionamento do monorepo  - Changesets](https://github.com/changesets/changesets/blob/main/packages/cli)
+```bash
+npm i -D @changesets/cli
+```
+
+
+
 ### tokens
 
 Pacote com as definições base de todas as aplicações (cores, fontes...)
@@ -93,12 +110,8 @@ npx eslint --init
 
 Outros pacotes serão instalados de acordo com a resposta dada no questionário de inicialização do eslint.
 
-- [Turbo](https://turbo.build/repo/docs/installing)
-  Pacote para executar e administrar todos os pacotes pela raiz
 
-```bash
-npm i -D turbo@latest
-```
+
 
 ### react
 
