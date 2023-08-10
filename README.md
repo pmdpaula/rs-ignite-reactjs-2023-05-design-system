@@ -219,3 +219,11 @@ npm i phosphor-react
 ```
 
 
+
+- [Verificação de assecibilidade no Storybook](https://storybook.js.org/addons/@storybook/addon-a11y)
+
+```bash
+npm install -D @storybook/addon-a11y@7.1.0
+```
+
+Adicionar o addon no arquivo `packages/docs/.storybook/main.js`
