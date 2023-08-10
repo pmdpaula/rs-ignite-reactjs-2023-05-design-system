@@ -9,6 +9,13 @@ export default {
   args: {
     src: 'https://github.com/pmdpaula.png',
     alt: 'Paulo de Paula',
+  },
+  argTypes: {
+    src: {
+      control: { 
+        type: 'text' 
+      }
+    },
   }
 } as Meta<AvatarProps>;
 
@@ -21,4 +28,3 @@ export const WithFallback: Story = {
     src: undefined,
   }
 };
-
