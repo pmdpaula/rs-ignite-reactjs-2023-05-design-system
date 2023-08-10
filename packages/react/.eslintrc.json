@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@ignite-ui/eslint-config",
+    "@axesoft-ui/eslint-config",
     "plugin:react/recommended"
   ],
   "plugins": [

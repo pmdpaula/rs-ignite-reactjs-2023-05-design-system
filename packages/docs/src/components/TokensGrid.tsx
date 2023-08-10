@@ -1,4 +1,4 @@
-import {  } from '@ignite-ui/tokens';
+import {  } from '@axesoft-ui/tokens';
 import '../styles/tokens-grid.css';
 
 interface TokensGridProps {

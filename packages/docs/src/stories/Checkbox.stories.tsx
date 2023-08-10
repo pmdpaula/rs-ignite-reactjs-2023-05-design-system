@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react';
-import { Checkbox, CheckboxProps, Box, Text } from '@ignite-ui/react';
+import { Checkbox, CheckboxProps, Box, Text } from '@axesoft-ui/react';
 
 
 export default {

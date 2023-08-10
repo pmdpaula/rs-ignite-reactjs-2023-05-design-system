@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react';
-import { MultiStep, MultiStepProps, Box } from '@ignite-ui/react';
+import { MultiStep, MultiStepProps, Box } from '@axesoft-ui/react';
 
 
 export default {

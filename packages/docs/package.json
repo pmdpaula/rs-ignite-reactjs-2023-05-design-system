@@ -1,11 +1,11 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@axesoft-ui/docs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build && touch ./storybook-static/.nojekyll",
+    "build": "storybook build",
     "lint": "eslint --ext .ts,.tsx src/**/*.ts* --fix",
     "deploy-storybook": "storybook-to-ghpages"
   },
@@ -19,7 +19,7 @@
     "@storybook/builder-vite": "0.3.0",
     "@storybook/react": "7.1.0",
     "@storybook/react-vite": "7.1.0",
-    "@storybook/storybook-deployer": "^2.8.16",
+    "@storybook/storybook-deployer": "^2.8.12",
     "@storybook/testing-library": "0.2.0",
     "@vitejs/plugin-react": "4.0.3",
     "eslint-plugin-storybook": "0.6.13",
@@ -28,10 +28,10 @@
     "vite": "4.4.6"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@axesoft-ui/eslint-config": "*",
+    "@axesoft-ui/react": "*",
+    "@axesoft-ui/tokens": "*",
+    "@axesoft-ui/ts-config": "*",
     "phosphor-react": "^1.4.1",
     "polished": "4.2.2",
     "react": "18.2.0",

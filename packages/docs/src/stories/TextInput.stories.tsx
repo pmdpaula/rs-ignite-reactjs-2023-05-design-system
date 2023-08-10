@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react';
-import { TextInput, TextInputProps, Box, Text } from '@ignite-ui/react';
+import { TextInput, TextInputProps, Box, Text } from '@axesoft-ui/react';
 
 
 export default {

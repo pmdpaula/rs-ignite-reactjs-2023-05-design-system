@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/tokens",
-  "version": "0.0.1",
+  "name": "@axesoft-ui/tokens",
+  "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -10,8 +10,8 @@
     "lint": "eslint --ext .ts,.tsx src/**/*.ts* --fix"
   },
   "devDependencies": {
-    "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*",
+    "@axesoft-ui/ts-config": "*",
+    "@axesoft-ui/eslint-config": "*",
     "tsup": "7.1.0",
     "typescript": "5.1.6"
   },
