@@ -23,6 +23,9 @@ const config = {
     if (configType === "PRODUCTION") {
       config.base = "/rs-ignite-reactjs-2023-05-design-system"; // nome do repositório github
     }
+
+    return config;
   },
 };
+
 export default config;
