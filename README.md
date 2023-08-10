@@ -227,3 +227,12 @@ npm install -D @storybook/addon-a11y@7.1.0
 ```
 
 Adicionar o addon no arquivo `packages/docs/.storybook/main.js`
+
+
+
+
+- [Deploy do storybook](https://github.com/storybook-eol/storybook-deployer)
+
+```bash
+npm i -D @storybook/storybook-deployer
+```
