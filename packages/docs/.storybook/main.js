@@ -18,6 +18,11 @@ const config = {
   docs: {
     autodocs: "tag",
     defaultName: "Docs"
-  }
+  },
+  viteFinal: async (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = "/rs-ignite-reactjs-2023-05-design-system"; // nome do repositório github
+    }
+  },
 };
 export default config;
