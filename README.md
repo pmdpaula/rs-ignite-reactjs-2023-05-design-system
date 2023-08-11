@@ -173,6 +173,24 @@ npm install @radix-ui/react-checkbox
 npm i phosphor-react
 ```
 
+
+
+- [Tooltip do Radix](https://www.radix-ui.com/primitives/docs/components/tooltip)
+
+```bash
+npm install @radix-ui/react-tooltip
+```
+
+
+
+- [Toast do Radix](https://www.radix-ui.com/primitives/docs/components/toast)
+
+```bash
+npm install @radix-ui/react-toast
+```
+
+
+
 ### docs
 
 Pacote da documentação do projeto. Onde está localizado o Storybook
@@ -248,4 +266,13 @@ Adicionar o addon no arquivo `packages/docs/.storybook/main.js`
 
 ```bash
 npm i -D @storybook/storybook-deployer
+```
+
+
+
+
+- [Hook do Storybook](https://www.npmjs.com/package/@storybook/client-api)
+
+```bash
+npm i -D @storybook/client-api
 ```
