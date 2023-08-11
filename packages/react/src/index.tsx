@@ -7,5 +7,7 @@ export * from './components/Avatar';
 export * from './components/Button';
 export * from './components/Checkbox';
 export * from './components/MultiStep';
+export * from './components/Tooltip';
+export * from './components/Toast';
 
 export * from './styles';
